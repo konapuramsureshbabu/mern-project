@@ -1,0 +1,37 @@
+.export_btn,.search_btn {
+    background: #479C88;
+    border: none;
+}
+.export_btn:hover,.search_btn:hover{
+    background: #1f856d;
+}
+.dropdown_btn {
+    background: none !important;
+    border: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown_btn:hover {
+    color: blue !important;
+}
+@media (max-width:576px){
+    .add_btn{
+        width:100px;
+        margin:10px;
+    }
+    .search_add{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .filter_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,14 @@
+.card-profile-stats img{
+    max-width: 56px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+.email{
+    color:rgba(238,101,122)
+}
+.location{
+    color:blue;
+}
+.date{
+    color:purple;
+}
